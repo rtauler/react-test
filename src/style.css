@@ -1,0 +1,18 @@
+.navbar{
+    background-color: darkgrey;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+}
+
+input[type='checkbox'] { 
+    color:white;
+}
+
+.checkbox{
+    display: inline-block;
+}
+
+.item-list{
+    margin-left: 30px;
+}
