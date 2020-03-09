@@ -7,7 +7,7 @@ function handleChecked(){
 function TodoItem(props){
     return(
         <div>
-            <input type="checkbox" onChange={handleChecked} name="" id=""/>
+            <input type="checkbox" checked={props.item.completed} onChange={handleChecked} name="" id=""/>
             <p className="checkbox">{props.item.text}</p>
         </div>
     );
